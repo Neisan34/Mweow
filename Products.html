@@ -23,12 +23,12 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="Products.html">Products</a></li>
                         <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>   
-                        <a href="add to cart.html" title="View Cart">
+                        <li><a href="">Contact</a></li>
+                        <a href="view-cart.html" title="View Cart">
                             <img src="cart.png" width="30px" height="30px" alt="Cart" class="cart-icon">
                             <div class="totalQuantity">0</div>
                           </a>
-                                             
+
                     </ul>
                 </nav>
             </div>
@@ -44,7 +44,7 @@
         <option value="shoes">Shoes</option>
         <option value="jacket">Jacket</option>
     </select>
-    
+
     <select id="sort-options">
         <option value="default">Default</option>
         <option value="price">Sort by Price</option>
@@ -53,7 +53,7 @@
     </div>
 
     <div  class="row">
-        <div class="col-4" id="cart-items">
+        <div class="col-4">
             <img src="Anya Minimalist.png" alt="Product Image">
             <h4>Anya Minimalist Shirst</h4>
             <div class="rating">
@@ -67,7 +67,7 @@
             <button class="add-to-cart-btn" data-product-name="Anya Minimalist Shirt" data-price="315" data-image-src="Anya Minimalist.png">Add to Cart</button>
         </div>
 
-        <div class="col-4" id="cart-items">
+        <div class="col-4">
             <img src="Aot jacket.png" alt="Product Image">
             <h4>Survey Corps Jacket</h4>
             <div class="rating">
@@ -78,7 +78,7 @@
                 <i class="fa-solid fa-star"></i>
             </div>
             <p>₱550</p>
-            <button class="add-to-cart-btn" onclick="addCart('Survey Corps Jacket',550,'Aot jacket.png')">Add to Cart</button>
+            <button class="add-to-cart-btn" onclick="addToCart('Survey Corps Jacket',550,'Aot jacket.png')">Add to Cart</button>
         </div>
 
         <div class="col-4">
@@ -92,7 +92,7 @@
                 <i class="fa-solid fa-star"></i>
             </div>
             <p>₱815</p>
-            <button class="add-to-cart-btn" onclick="addCart('Itachi High Tops',815,'Itachi top.png')">Add to Cart</button>
+            <button class="add-to-cart-btn" onclick="addToCart('Itachi High Tops',815,'Itachi top.png')">Add to Cart</button>
         </div>
 
         <div class="col-4">
@@ -106,7 +106,7 @@
                 <i class="fa-regular fa-star"></i>
             </div>
             <p>₱315</p>
-            <button class="add-to-cart-btn" onclick="addCart('Mai Sakurajima Shirt',315,'Mai- Mock up.png')">Add to Cart</button>
+            <button class="add-to-cart-btn" onclick="addToCart('Mai Sakurajima Shirt',315,'Mai- Mock up.png')">Add to Cart</button>
         </div>
     </div>
 </div>
@@ -124,10 +124,10 @@
             <i class="fa-regular fa-star"></i>
         </div>
         <p>₱339</p>
-        <button class="add-to-cart-btn" onclick="addCart('Zenitsu Shirt',339,'ZENITSU_V1_MOCK_1556x2000.png')">Add to Cart</button>
+        <button class="add-to-cart-btn" onclick="addToCart('Zenitsu Shirt',339,'ZENITSU_V1_MOCK_1556x2000.png')">Add to Cart</button>
     </div>
 
-    <div class="col-4" id="cart-items">
+    <div class="col-4">
         <img src="itachi.jpg" alt="Product Image">
         <h4>Itachi Jacket</h4>
         <div class="rating">
@@ -138,7 +138,7 @@
             <i class="fa-regular fa-star"></i>
         </div>
         <p>₱550</p>
-        <button class="add-to-cart-btn" onclick="addCart('Itachi Jacket',550,'itachi.jpg')">Add to Cart</button>
+        <button class="add-to-cart-btn" onclick="addToCart('Itachi Jacket',550,'itachi.jpg')">Add to Cart</button>
     </div>
 
     <div class="col-4">
@@ -152,7 +152,7 @@
             <i class="fa-regular fa-star"></i>
         </div>
         <p>₱815</p>
-        <button class="add-to-cart-btn" onclick="addCart('Pain High Tops',815,'pain hi.png')">Add to Cart</button>
+        <button class="add-to-cart-btn" onclick="addToCart('Pain High Tops',815,'pain hi.png')">Add to Cart</button>
     </div>
 
     <div class="col-4">
@@ -166,11 +166,11 @@
             <i class="fa-regular fa-star"></i>
         </div>
         <p>₱349</p>
-        <button class="add-to-cart-btn" onclick="addCart('Natsu Kakashi Shirt',349,'kakashi mock up.png')">Add to Cart</button>
+        <button class="add-to-cart-btn" onclick="addToCart('Natsu Kakashi Shirt',349,'kakashi mock up.png')">Add to Cart</button>
     </div>
 </div>
 </div>
-        
+
 <div class="small-container">
     <div  class="row">
         <div class="col-4">
@@ -184,9 +184,9 @@
                 <i class="fa-regular fa-star"></i>
             </div>
             <p>₱349</p>
-            <button class="add-to-cart-btn" onclick="addCart('Natsu Graphic Shirt',349,'Natsu Mock up.png')">Add to Cart</button>
+            <button class="add-to-cart-btn" onclick="addToCart('Natsu Graphic Shirt',349,'Natsu Mock up.png')">Add to Cart</button>
         </div>
-    
+
         <div class="col-4">
             <img src="Law jacket.png" alt="Product Image">
             <h4>Law Sabaody Jacket</h4>
@@ -198,9 +198,9 @@
                 <i class="fa-regular fa-star"></i>
             </div>
             <p>₱550</p>
-            <button class="add-to-cart-btn"  onclick="addCart('Law Sabaody Jacket',550,'Law jacket.png')">Add to Cart</button>
+            <button class="add-to-cart-btn"  onclick="addToCart('Law Sabaody Jacket',550,'Law jacket.png')">Add to Cart</button>
         </div>
-    
+
         <div class="col-4">
             <img src="Wano shoes.png"alt="Product Image">
             <h4>Wano Manga Hi-Tops</h4>
@@ -212,9 +212,9 @@
                 <i class="fa-regular fa-star"></i>
             </div>
             <p>₱815</p>
-            <button class="add-to-cart-btn" onclick="addCart('Wano Manga Hi-Tops',815,'Wano shoes.png')">Add to Cart</button>
+            <button class="add-to-cart-btn" onclick="addToCart('Wano Manga Hi-Tops',815,'Wano shoes.png')">Add to Cart</button>
         </div>
-    
+
         <div class="col-4">
             <img src="Dazai Minimal Mock up.png"alt="Product Image">
             <h4>Dazai Minimalist Shirt</h4>
@@ -226,7 +226,7 @@
                 <i class="fa-regular fa-star"></i>
             </div>
             <p>₱315</p>
-            <button class="add-to-cart-btn" onclick="addCart('Ichigo Bankai Shirt',315,'Dazai Minimal Mock up.png')">Add to Cart</button>
+            <button class="add-to-cart-btn" onclick="addToCart('Ichigo Bankai Shirt',315,'Dazai Minimal Mock up.png')">Add to Cart</button>
         </div>
     </div>
     </div>
@@ -244,9 +244,9 @@
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <p>₱349</p>
-                <button class="add-to-cart-btn" onclick="addCart('Ichigo Bankai Shirt',349,'Bankai Mock Up.png')" >Add to Cart</button>
+                <button class="add-to-cart-btn" onclick="addToCart('Ichigo Bankai Shirt',349,'Bankai Mock Up.png')" >Add to Cart</button>
             </div>
-        
+
             <div class="col-4">
                 <img src="Baryon Mock Up.png" alt="Product Image">
                 <h4>Baryon Mode Shirt</h4>
@@ -258,9 +258,9 @@
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <p>₱349</p>
-                <button class="add-to-cart-btn" onclick="addCart('Baryon Mode Shirt',315,'Baryon Mock Up.png')">Add to Cart</button>
+                <button class="add-to-cart-btn" onclick="addToCart('Baryon Mode Shirt',315,'Baryon Mock Up.png')">Add to Cart</button>
             </div>
-        
+
             <div class="col-4">
                 <img src="minimal chainsaw.png" alt="Product Image">
                 <h4>Chainsawman Shirt</h4>
@@ -272,9 +272,9 @@
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <p>₱315</p>
-                <button  class="add-to-cart-btn" onclick="addCart('Chainsawman Shirt',315,'minimal chainsaw.png')">Add to Cart</button>
+                <button  class="add-to-cart-btn" onclick="addToCart('Chainsawman Shirt',315,'minimal chainsaw.png')">Add to Cart</button>
             </div>
-        
+
             <div class="col-4">
                 <img src="GEAR 5 MOCK.png" alt="Product Image">
                 <h4>Gear 5 Shirt</h4>
@@ -286,11 +286,11 @@
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <p>₱339</p>
-                <button  class="add-to-cart-btn" onclick="addCart('Gear 5 Shirt',339,'GEAR 5 MOCK.png')">Add to Cart</button>
+                <button  class="add-to-cart-btn" onclick="addToCart('Gear 5 Shirt',339,'GEAR 5 MOCK.png')">Add to Cart</button>
             </div>
         </div>
     </div>
-    
+
 <!--Footer-->
 <footer class="footer bg-dark text-white py-4">
     <div class="container">
